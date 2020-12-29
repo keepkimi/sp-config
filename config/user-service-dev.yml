@@ -5,13 +5,11 @@ sp:
 spring:
   application:
     name: user-service
-    
-spring:
 
   cloud:
     config:
-      override-none: true
-    
+      override-none: true    
+
   
 eureka:
   client:
